@@ -1,6 +1,10 @@
-class Engine {
-	Engine() {}
-	~Engine() {}
+#pragma once
+class Engine
+{
+public:
+	Engine();
+	~Engine();
 
-	void print() {}
-}
+	void print();
+};
+

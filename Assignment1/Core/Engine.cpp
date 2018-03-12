@@ -1,7 +1,16 @@
-#include <stdio.h>
 #include "Engine.h"
+#include <stdio.h>
+
+
+Engine::Engine()
+{
+}
+
+
+Engine::~Engine()
+{
+}
 
 void Engine::print() {
-	printf("b o o m");
 	getchar();
 }
